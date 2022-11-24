@@ -1,0 +1,39 @@
+ .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.wave-image {
+    height: 25px;
+    width: 25px;
+    margin-right: 12px;
+}
+.wave-heading {
+    color: #12022f;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.links {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.item {
+    color: #12022f;
+    margin-right: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-decoration: none;
+}
